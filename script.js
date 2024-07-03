@@ -12,7 +12,7 @@ const ColorsArr = [
 ];
 
 function getRandomIndex() {
-	console.log(ColorsArr.length * Math.random());
+	console.log(Math.floor(ColorsArr.length * Math.random()));
 }
 
 getRandomIndex();
