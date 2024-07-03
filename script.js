@@ -13,6 +13,8 @@ const ColorsArr = [
 
 function getRandomIndex() {
 	console.log(Math.floor(ColorsArr.length * Math.random()));
+	const randomIndex = Math.floor(ColorsArr.length * Math.random());
+	return randomIndex;
 }
 
-getRandomIndex();
+const body = document.querySelector('body');
