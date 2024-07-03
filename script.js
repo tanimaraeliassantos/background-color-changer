@@ -20,3 +20,11 @@ function getRandomIndex() {
 const body = document.querySelector('body');
 const bgHexCodeSpanElement = document.querySelector('#bg-hex.code');
 
+function changeBackgroundColor() {
+	const color = ColorsArr[getRandomIndex()];
+
+	bgHexCodeSpanElement.innerText = color;
+	body.style.backgroundColor = color;
+}
+
+changeBackgroundColor();
