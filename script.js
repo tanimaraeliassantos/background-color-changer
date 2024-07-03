@@ -27,4 +27,4 @@ function changeBackgroundColor() {
 	body.style.backgroundColor = color;
 }
 
-changeBackgroundColor();
+
