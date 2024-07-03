@@ -12,13 +12,12 @@ const ColorsArr = [
 ];
 
 function getRandomIndex() {
-	console.log(Math.floor(ColorsArr.length * Math.random()));
 	const randomIndex = Math.floor(ColorsArr.length * Math.random());
 	return randomIndex;
 }
 
 const body = document.querySelector('body');
-const bgHexCodeSpanElement = document.querySelector('#bg-hex.code');
+const bgHexCodeSpanElement = document.querySelector('#bg-hex-code');
 
 function changeBackgroundColor() {
 	const color = ColorsArr[getRandomIndex()];
@@ -28,4 +27,4 @@ function changeBackgroundColor() {
 }
 
 const btn = document.querySelector('#btn');
-console.log(btn);
+btn.onclick = changeBackgroundColor;
