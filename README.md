@@ -23,7 +23,7 @@ In the project directory, you can run it with the Live Server by right-clicking 
 It will run the app in development mode.\
 Open [http://127.0.0.1:5500](http://127.0.0.1:5500/index.html) to view it in your browser.
 
-When making changes, make sure you reload to see it on the page.
+When making changes, reload them to see them on the page.
 
 ### Author
 
