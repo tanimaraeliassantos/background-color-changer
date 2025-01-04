@@ -2,7 +2,7 @@
 
 The application was built as a challenge project for a JavaScript Algorithms and Data Structures course with FreeCodeCamp. It features a background color changer designed to change colors whenever users press the button. Developed with HTML, CSS, and JavaScript, the app incorporates basic debugging and problem-solving practices while working with code from others.
 
-![background color changer app - Tanimara Elias Santos](background-color-changer-showcase.gif)
+![background color changer app - Tanimara Elias Santos](background-color-changer-app-showcase.gif)
 
 ## Features
 
